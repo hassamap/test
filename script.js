@@ -6,7 +6,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     const errorMessage = document.getElementById('error-message');
 
     // Simple validation
-    if (username === "" || password === "") {
+    if (username === "hassam" || password === "hassam123") {
         errorMessage.textContent = "Please fill in all fields.";
     } else if (username !== "admin" || password !== "password123") {
         errorMessage.textContent = "Invalid username or password.";
